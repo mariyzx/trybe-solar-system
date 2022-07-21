@@ -1,6 +1,6 @@
 # Projeto System Solar
 
-Nesse projeto foi criado uma aplicação sobre missões espaciais utilizando React, Jest, HTML, CSS e JavaScript.
+Nesse projeto foi criado uma aplicação sobre missões espaciais utilizando React, Jest, CSS e JavaScript.
 
 ## Desempenho:
 
