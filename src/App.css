@@ -2,37 +2,155 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('https://cdn.wallpapersafari.com/78/87/YZW3kd.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  color: white;
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  border: 2px solid gray;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 70%;
+}
+
+.Mercúrio {
+  width: 50px;
+}
+
+.Vênus {
+  width: 80px;
+}
+
+.Terra {
+  width: 120px;
+}
+
+.Marte {
+  width: 70px;
+}
+
+.Júpiter {
+  width: 200px;
+}
+
+.Saturno {
+  width: 200px;
+}
+
+.Urano {
+  width: 100px;
+}
+
+.Netuno {
+  width: 100px;
+}
+
+.flex-planets {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.planets {
+  margin: 8px;
+}
+
+.planet-name {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.pai-missao {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: -7px;
+  width: 100%;
+}
+
+.missao {
+  border: 2px solid grey;
+  border-radius: 12px;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-size: larger;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+  margin-left: 18px;
+  margin-right: 0;
+  padding: 5%;
+  width: 198px;
+}
+
+.nome-missao {
   color: white;
+  font-size: x-large;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 52px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.missao:hover {
+  transform: scale(0.8);
+  transition-duration: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mercúrio:hover {
+  width: 100px;
+}
+
+.Vênus:hover {
+  width: 150px;
+}
+
+.Terra:hover {
+  width: 180px;
+}
+
+.Marte:hover {
+  width: 120px;
+}
+
+.Júpiter:hover {
+  width: 230px;
+}
+
+.Saturno:hover {
+  width: 250px;
+}
+
+.Urano:hover {
+  width: 160px;
+}
+
+.Netuno:hover {
+  width: 200px;
+}
+
+.mariana {
+  color: white;
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
 }
