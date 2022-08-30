@@ -8,6 +8,12 @@ O projeto System Solar foi desenvolvido por [Mariana Werneck](https://www.linked
 
 ![Desempenho no Projeto](src/images/systemsolar.PNG)
 
+## Como utilizar:
+
+<p>Clone o repositório: <code> git@github.com:mariyzx/trybe-solar-system.git</code>.</p>
+<p>Acesse a pasta do repositório clonado.</p>
+<p>Rode o comando <code>npm install</code> para instalar as dependências do projeto e <code>npm start</code> para visualizar no navegador.</p>
+
 ## Preview:
 
 ![Tela System Solar](src/images/systemsolar2.PNG)
